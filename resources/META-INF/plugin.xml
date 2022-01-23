@@ -1,0 +1,32 @@
+<idea-plugin>
+    <id>net.insprill.Insprill's Dark Theme</id>
+    <name>Insprill's Dark Theme</name>
+    <version>1.0.2</version>
+    <vendor email="" url="https://insprill.net/">Insprill Development</vendor>
+
+    <description><![CDATA[
+          Custom color scheme used by Insprill based on Eclipse's dark theme<br>
+          and modified to my liking. Looks best with the <a href="https://plugins.jetbrains.com/plugin/11938/">One Dark Theme</href>.
+        ]]></description>
+
+    <change-notes><![CDATA[
+      1.0.2:<br>
+        Changed background color to match One Dark's.<br>
+    <br>
+      1.0.1:<br>
+        Changed keyword brownish-orange to purple.<br>
+    <br>
+      1.0.0:<br>
+        Initial release.<br>
+        ]]>
+    </change-notes>
+
+    <idea-version since-build="142.0"/>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledColorScheme path="/colors/insprills_dark_theme"/>
+    </extensions>
+
+</idea-plugin>
