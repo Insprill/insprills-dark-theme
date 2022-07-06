@@ -5,18 +5,18 @@
     <vendor email="" url="https://github.com/Insprill">Insprill</vendor>
 
     <description><![CDATA[
-          Custom color scheme used by Insprill based on Eclipse's dark theme<br>
-          and modified to my liking. Looks best with the <a href="https://plugins.jetbrains.com/plugin/11938/">One Dark Theme</a>.
+        Custom color scheme used by Insprill based on Eclipse's dark theme and modified to my liking.
+        Looks best with the <a href="https://plugins.jetbrains.com/plugin/11938/">One Dark Theme</a>.
         ]]></description>
 
     <change-notes><![CDATA[
-      1.0.2:<br>
+        1.0.2:<br>
         Changed background color to match One Dark's.<br>
-    <br>
-      1.0.1:<br>
+        <br>
+        1.0.1:<br>
         Changed keyword brownish-orange to purple.<br>
-    <br>
-      1.0.0:<br>
+        <br>
+        1.0.0:<br>
         Initial release.<br>
         ]]>
     </change-notes>
