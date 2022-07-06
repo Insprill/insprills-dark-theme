@@ -9,9 +9,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
       - name: Build
-        run: ./build
+        run: ./buildc
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with:
           name: Plugin
-          path: insprills-dark-theme.jar
+          path: build

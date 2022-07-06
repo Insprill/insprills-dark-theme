@@ -1,0 +1,18 @@
+#!/bin/bash
+
+BUILD_FOLDER=build
+FILE_NAME=insprills-dark-theme.jar
+
+if ! command -v zip &>/dev/null; then
+  echo "Error: this script requires zip"
+  exit 1
+fi
+
+FILE_PATH=$BUILD_FOLDER/$FILE_NAME
+
+mkdir -p $BUILD_FOLDER
+
+cd resources || exit 1
+zip -r ../$FILE_PATH ./*
+
+echo "Done! The built plugin jar can be found at $FILE_PATH"

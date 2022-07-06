@@ -41,5 +41,4 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 ### Built Plugin
-insprills-dark-theme.jar
-insprills-dark-theme.zip
+build/
