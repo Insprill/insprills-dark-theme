@@ -1,8 +1,8 @@
 <idea-plugin>
-    <id>net.insprill.Insprill's Dark Theme</id>
+    <id>net.insprill.insprills-dark-theme</id>
     <name>Insprill's Dark Theme</name>
     <version>1.0.2</version>
-    <vendor email="" url="https://insprill.net/">Insprill Development</vendor>
+    <vendor email="" url="https://github.com/Insprill">Insprill</vendor>
 
     <description><![CDATA[
           Custom color scheme used by Insprill based on Eclipse's dark theme<br>
