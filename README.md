@@ -51,9 +51,9 @@
 
 ## Compiling
 
-To compile insprills-dark-theme, you need JDK 11 or higher and an internet connection.  
-Clone this repo, then run `./gradlew build` from your terminal.  
-You can find the compiled jar in the `build/libs` directory.  
+To compile insprills-dark-theme, you will need Linux, the `zip` command, an internet connection.  
+Clone this repo, then run `./build` from your terminal.  
+Once completed, the plugin can be found in the project directory.
 
 
 
