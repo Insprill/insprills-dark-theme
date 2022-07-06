@@ -1,0 +1,17 @@
+name: Build
+
+on: [ push, pull_request ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Build
+        run: ./build
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: Plugin
+          path: insprills-dark-theme.jar
