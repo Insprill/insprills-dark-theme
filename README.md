@@ -51,7 +51,7 @@
 
 ## Compiling
 
-To compile insprills-dark-theme, you will need Linux, the `zip` command, an internet connection.  
+To compile insprills-dark-theme, you will need Linux (or WSL), the `zip` command, and an internet connection.  
 Clone this repo, then run `./buildc` from your terminal.  
 Once completed, the plugin can be found in the `build` directory.
 
